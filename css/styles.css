@@ -1,3 +1,6 @@
+body{
+    padding-top: 50px;
+}
 #fondo{
     background-image: url('/src/fondo.jpg');
     background-repeat: no-repeat;
@@ -44,4 +47,16 @@
 }
 #abaot{
     background-color: #F6F6F4;
+}
+.icon_tienda{
+    font-size: 20px;
+    color: black;
+}
+.icon_login{
+    font-size: 20px;
+    color: black;
+}
+.icon_close_sesion{
+    font-size: 15px;
+    color: red;
 }
