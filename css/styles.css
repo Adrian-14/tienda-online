@@ -1,0 +1,47 @@
+#fondo{
+    background-image: url('/src/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.thumbnail{
+    position: relative;
+}
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+.button{
+    color: #223828 !important;
+}
+#buscar_producto{
+    background-color: #E8E7E3;
+}
+.bg-cyan{
+    background-color: #4B7A4E;
+}
+.bg-footer{
+    background-color: #223828;
+}
+
+.icono_contacto{
+    font-size: 20px;
+    color: #4B7A4E;
+}
+.icon_social{
+    font-size: 40px;
+    color: #4B7A4E;
+}
+.color-text-primary{
+    color: #467449;
+}
+.redsocial{
+    font-size: 30px;
+    color: #4B7A4E;
+}
+#abaot{
+    background-color: #F6F6F4;
+}
