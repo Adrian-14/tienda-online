@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --bs-color-text-primary: #FFB423;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -57,7 +58,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #26262C;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -97,6 +98,9 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.text-color-primary{
+  color: var(--bs-color-text-primary);
 }
 
 hr {
@@ -2871,16 +2875,16 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #4B7A4E;
-  --bs-btn-border-color: #4B7A4E;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #467449;
-  --bs-btn-hover-border-color: #467449;
+  --bs-btn-color: #26262C;
+  --bs-btn-bg: #FFB423;
+  --bs-btn-border-color: #FFB423;
+  --bs-btn-hover-color: #26262C;
+  --bs-btn-hover-bg: #FCC91B;
+  --bs-btn-hover-border-color: #FCC91B;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #467449;
-  --bs-btn-active-border-color: #467449;
+  --bs-btn-active-color: #26262C;
+  --bs-btn-active-bg: #FCC91B;
+  --bs-btn-active-border-color: #FCC91B;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
