@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light shadow fixed-top bg-trasnparent">
+        <nav class="navbar navbar-expand-sm navbar-light shadow bg-dark">
             <div class="container icons">
                 <a class="navbar-brand" href="index.html"><img src="/src/logo3.png" height="30px" width="100px" alt="logo"></a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -41,16 +41,25 @@
     <main>
         <div id="inicio">
             <div class="container vh-100">
-                <div class="row align-items-center">
-                    <div class="col">
+                <div class="row pt-5 border d-flex align-items-center justify-content-center">
+                    <div class="col border">
                         <p class="text-success"><i class="bi bi-arrow-right"></i> Introducing</p>
                         <h2 class="display-5 fw-bold text-white">Hello</h2>
                         <h1 class="display-2 text-white fw-bold">I´m Anna Danielle</h1>
                         <p class="lead text-white pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur delectus deserunt iure aspernatur. Quia quibusdam odit delectus velit commodi?</p>
                         <button class="btn btn-primary px-4">Contact Me</button>
                     </div>
-                    <div id="redonda" class="col text-center">
-                        <img class="img-fluid" src="/src/Character-1.png" alt="img" width="400" height="auto">
+                    <div class="col position-relative border">
+                        <div id="redonda"></div>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <img src="/src/Character-1.png" alt="img" width="500" height="auto">
+                        </div>
+                        <div class="position-absolute top-50 start-0">
+                            <img src="/src/Figma.png" alt="figma" width="90px" height="90px">
+                        </div>
+                        <div class="position-absolute translate-middle top-50 start-100">
+                            <img src="/src/Illustrator.png" alt="Illustrator" width="90px" height="90px">
+                        </div>
                     </div>
                 </div>
             </div>

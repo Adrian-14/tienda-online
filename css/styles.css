@@ -1,12 +1,11 @@
 body{
     background-color: #26262C;
-    padding-top: 50px;
 }
 #redonda {
-    width:200px;
-    height:200px;
+    width: auto;
+    height:500px;
     border-radius:50%;
-    border: solid 50px white;
+    border: solid 60px rgba(3, 194, 44, 0.493);
   }
 #fondo{
     background-image: url('/src/fondo.jpg');
