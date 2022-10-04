@@ -6,63 +6,13 @@ body{
     height:500px;
     position: static;
     border-radius:50%;
-    border: solid 60px rgba(3, 194, 44, 0.493);
+    border: solid 70px #5EE5A1;
   }
-#fondo{
-    background-image: url('/src/fondo.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-.thumbnail{
-    position: relative;
-}
-.caption{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-}
-.button{
-    color: #223828 !important;
-}
-#buscar_producto{
-    background-color: #E8E7E3;
-}
-.bg-cyan{
-    background-color: #4B7A4E;
-}
-.bg-footer{
-    background-color: #223828;
-}
 
-.icono_contacto{
-    font-size: 20px;
-    color: #4B7A4E;
-}
 .icons i{
     color: #FFB423;
-}
-.color-text-primary{
-    color: #467449;
 }
 .redsocial{
     font-size: 30px;
     color: #4B7A4E;
-}
-#abaot{
-    background-color: #F6F6F4;
-}
-.icon_tienda{
-    font-size: 20px;
-    color: black;
-}
-.icon_login{
-    font-size: 20px;
-    color: black;
-}
-.icon_close_sesion{
-    font-size: 15px;
-    color: red;
 }
