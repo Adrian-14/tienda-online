@@ -4,6 +4,7 @@ body{
 #redonda {
     width: auto;
     height:500px;
+    position: static;
     border-radius:50%;
     border: solid 60px rgba(3, 194, 44, 0.493);
   }
