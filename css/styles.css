@@ -12,6 +12,9 @@ body{
 .icons i{
     color: #FFB423;
 }
+.icons i:hover{
+    color: #5c636a42;
+}
 .redsocial{
     font-size: 30px;
     color: #4B7A4E;
