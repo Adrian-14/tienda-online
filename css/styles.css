@@ -20,5 +20,13 @@ i:hover{
 }
 .redsocial{
     font-size: 30px;
-    color: #4B7A4E;
+    color: #FFB423;
+}
+.blob{
+    width: auto;
+    height: auto;
+    fill: #FCC91B;
+}
+.blob_img{
+    width: 170px;
 }
