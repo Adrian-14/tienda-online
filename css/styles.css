@@ -29,35 +29,43 @@
 .blob_img{
     width: 170px;
 }
-.card{
+
+
+.box1{
     width: 318px;
     height: auto;
     flex-direction: column;
     cursor: pointer;
 }
-.card:hover{
+.box1:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.5);
     transition: .5s ease-in-out;
     background-color: #FCC91B;
     z-index: 1;
 }
-.card i{
+.box1 i{
     font-size: 60px;
     color: #FFB423;
 }
-.card:hover i{
+.box1:hover i{
     color: #26262C;
 }
-.card h4{
+.box1 h4{
     color: #fff;
 }
-.card:hover h4{
+.box1:hover h4{
     color: #26262C;
 }
-.card p{
+.box1 p{
     color: #fff;
 }
-.card:hover p{
+.box1:hover p{
     color: #26262C;
+}
+
+
+.icon_framewords i{
+    font-size: 60px;
+    color: #FCC91B;
 }
