@@ -11,14 +11,10 @@
     border-radius:50%;
     border: solid 70px #5EE5A1;
   }
-.icons_servicios i{
-    font-size: 50px;
-    color: #FFB423;
-}
 .icons i{
     color: #FFB423;
 }
-.icons i:hover{
+.icons:hover i{
     color: #fff;
 }
 .redsocial{
@@ -32,4 +28,36 @@
 }
 .blob_img{
     width: 170px;
+}
+.card{
+    width: 318px;
+    height: auto;
+    flex-direction: column;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.5);
+    transition: .5s ease-in-out;
+    background-color: #FCC91B;
+    z-index: 1;
+}
+.card i{
+    font-size: 60px;
+    color: #FFB423;
+}
+.card:hover i{
+    color: #26262C;
+}
+.card h4{
+    color: #fff;
+}
+.card:hover h4{
+    color: #26262C;
+}
+.card p{
+    color: #fff;
+}
+.card:hover p{
+    color: #26262C;
 }
