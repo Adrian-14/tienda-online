@@ -69,7 +69,15 @@
     font-size: 60px;
     color: #FCC91B;
 }
-
+.inicio h1, h2, p{
+    color: #fff;
+}
+.Quien_soy p{
+    color: #fff;
+}
+.herramientas h1, p{
+    color: #fff;
+}
 .suscribete h1, p{
     color: #fff;
 }
