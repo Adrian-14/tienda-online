@@ -64,6 +64,12 @@
     color: #26262C;
 }
 
+.box2{
+    width: 318px;
+    height: auto;
+    flex-direction: column;
+    cursor: pointer;
+}
 
 .icon_framewords i{
     font-size: 60px;
