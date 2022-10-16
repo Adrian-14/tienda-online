@@ -2,13 +2,6 @@
     background-color: #26262C;
 }
 
-#redonda {
-    width: auto;
-    height:500px;
-    position: static;
-    border-radius:50%;
-    border: solid 70px #5EE5A1;
-  }
 .icons i{
     color: #FFB423;
 }
@@ -75,6 +68,21 @@
 }
 .inicio h1, h2, p{
     color: #fff;
+}
+.icon-lg {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.bg-color-icon {
+    opacity: 1;
+    background-color: #2D2E32 !important;
+}
+.bg-blur {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .Quien_soy p{
     color: #fff;
