@@ -94,6 +94,17 @@
     color: #fff;
 }
 
+.nav-pills-bg-soft {
+    background-color: rgba(6, 106, 201, 0.1);
+    padding: 0.625rem 0;
+    border-radius: 0.625rem;
+}
+.nav-pills {
+    --bs-nav-pills-border-radius: 0.325rem;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #066ac9;
+}
+
 body::-webkit-scrollbar{
     width: 7px;
 }
