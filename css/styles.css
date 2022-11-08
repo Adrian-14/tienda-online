@@ -26,7 +26,6 @@
     width: 318px;
     height: auto;
     flex-direction: column;
-    cursor: pointer;
 }
 .box1:hover{
     transform: scale(1.1);
